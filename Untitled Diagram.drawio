@@ -1,9 +1,48 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.8.6">
   <diagram name="Page-1" id="qxkXZ0rr2d78JF3-JwTM">
-    <mxGraphModel>
+    <mxGraphModel dx="954" dy="639" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="kazjJs_lLb-KhP4UtWPe-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kazjJs_lLb-KhP4UtWPe-3" target="kazjJs_lLb-KhP4UtWPe-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kazjJs_lLb-KhP4UtWPe-3" value="Tải dữ liệu" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kazjJs_lLb-KhP4UtWPe-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kazjJs_lLb-KhP4UtWPe-5" target="kazjJs_lLb-KhP4UtWPe-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kazjJs_lLb-KhP4UtWPe-5" value="Tiền xử lý dữ liệu" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kazjJs_lLb-KhP4UtWPe-6" value="chia dữ liệu thành huấn luyện và kiểm tra theo tỉ lệ (80% train,20 % test)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kazjJs_lLb-KhP4UtWPe-7" value="Tiền xử lý" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry width="600" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="kazjJs_lLb-KhP4UtWPe-8" value="Đầu vào" style="rounded=0;whiteSpace=wrap;html=1;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kazjJs_lLb-KhP4UtWPe-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kazjJs_lLb-KhP4UtWPe-9" target="kazjJs_lLb-KhP4UtWPe-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kazjJs_lLb-KhP4UtWPe-9" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="150" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="kazjJs_lLb-KhP4UtWPe-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.015;entryY=0.45;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="kazjJs_lLb-KhP4UtWPe-8" target="kazjJs_lLb-KhP4UtWPe-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kazjJs_lLb-KhP4UtWPe-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kazjJs_lLb-KhP4UtWPe-11" target="kazjJs_lLb-KhP4UtWPe-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kazjJs_lLb-KhP4UtWPe-11" value="không gian tiềm ẩn" style="rounded=0;whiteSpace=wrap;html=1;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="330" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kazjJs_lLb-KhP4UtWPe-13" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="150" width="200" height="200" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
