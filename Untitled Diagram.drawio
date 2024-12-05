@@ -1,9 +1,55 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.1">
   <diagram name="Page-1" id="2AJU-nKR7cNvDl5MCuxx">
-    <mxGraphModel>
+    <mxGraphModel dx="954" dy="639" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="WXXSAKyNShV4keXj7MXA-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WXXSAKyNShV4keXj7MXA-1" target="WXXSAKyNShV4keXj7MXA-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WXXSAKyNShV4keXj7MXA-1" value="Food Data" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WXXSAKyNShV4keXj7MXA-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WXXSAKyNShV4keXj7MXA-2" target="WXXSAKyNShV4keXj7MXA-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="110" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WXXSAKyNShV4keXj7MXA-2" value="Data processing" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WXXSAKyNShV4keXj7MXA-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WXXSAKyNShV4keXj7MXA-4" target="WXXSAKyNShV4keXj7MXA-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WXXSAKyNShV4keXj7MXA-4" value="Recommend System&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WXXSAKyNShV4keXj7MXA-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WXXSAKyNShV4keXj7MXA-6" target="WXXSAKyNShV4keXj7MXA-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WXXSAKyNShV4keXj7MXA-9" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="10" width="520" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="WXXSAKyNShV4keXj7MXA-6" value="User" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WXXSAKyNShV4keXj7MXA-9">
+          <mxGeometry x="130" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WXXSAKyNShV4keXj7MXA-10" value="Height" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WXXSAKyNShV4keXj7MXA-9">
+          <mxGeometry x="290" y="130" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WXXSAKyNShV4keXj7MXA-11" value="Weight" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WXXSAKyNShV4keXj7MXA-9">
+          <mxGeometry x="30" y="130" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WXXSAKyNShV4keXj7MXA-12" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.133;entryY=0.775;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WXXSAKyNShV4keXj7MXA-9" source="WXXSAKyNShV4keXj7MXA-11" target="WXXSAKyNShV4keXj7MXA-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WXXSAKyNShV4keXj7MXA-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.95;entryY=0.625;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WXXSAKyNShV4keXj7MXA-9" source="WXXSAKyNShV4keXj7MXA-10" target="WXXSAKyNShV4keXj7MXA-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WXXSAKyNShV4keXj7MXA-14" value="Food Recommend and&amp;nbsp;Recommended method for eating" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
